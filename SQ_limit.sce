@@ -51,7 +51,7 @@ Vmax(i)=fsolve(Voc,maxV);  //Voltage at MPP
 end;
 Jmax=current(Vmax);  //Current at MPP
 //
-//Fill factor and SQ efficiency limits
+//SQ efficiency limits
 //
 en=((Vmax.*Jmax)./AM1).*100;  //Shockley-Quiesser efficiency limit using input spectrum
 //
