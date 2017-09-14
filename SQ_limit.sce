@@ -65,5 +65,5 @@ plot(Eg,en)
 scf();
 title('Input Spectrum','fontsize',5)
 xlabel('Wavelength (nm)','fontsize',3)
-ylabel('Irradiance (W/m2/nm)','fontsize',3)
+ylabel('Irradiance (W/m²/nm)','fontsize',3)
 plot(AMwav,AMspec) 
