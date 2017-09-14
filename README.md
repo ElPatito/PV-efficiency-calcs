@@ -10,7 +10,7 @@ Copyright (c) 2017 Patrick Isherwood
 -------------------------------------------------------------------------------------------------
 
 *************************************************************************************************
-			                Shockley-Queisser limit calculations (SQ_limit.sce)
+			Shockley-Queisser limit calculations (SQ_limit.sce)
 *************************************************************************************************
 
 This Scilab script uses a user-defined solar spectrum to calculate the detailed balance or
@@ -36,7 +36,7 @@ form!
 -------------------------------------------------------------------------------------------------
 
 *************************************************************************************************
-			                   Fundamental losses in photovoltaics (FLIPV.sce)
+			Fundamental losses in photovoltaics (FLIPV.sce)
 *************************************************************************************************
 
 This Scilab script uses the calculations described by Hirst and Ekins-Daukes [3] to produce a 
