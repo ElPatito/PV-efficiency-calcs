@@ -45,7 +45,7 @@ Vg=((h.*c)./q)./(Wav.*1e-9);  //Band gap energy for given wavelength
 xg=(q.*Vg)./(k.*TsS);
 xgc=xg./(Tc./TsS);
 Qs(i)=inttrap(epf(find(Wav==AMwav):$,1:1));  //Integrated photon flux
-Qc(i)=((2 .*%pi.*((k.*Tc).^3))/((h.^3).*(c.^2))).*intg(xgc,1000, recombination);  //Cell recombination rate
+Qc(i)=((2 .*%pi.*((k.*Tc).^3))/((h.^3).*(c.^2))).*intg(xgc,1000, recombination);  //Cell dark recombination rate
 Voc=Vc.*log((Qs(i)./(Qc(i)))+1);  //Open circuit voltage
 Vmax(i)=fsolve(Voc,maxV);  //Voltage at MPP
 end;
