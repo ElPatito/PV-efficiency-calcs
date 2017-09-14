@@ -7,8 +7,6 @@ photovoltaic devices
 
 Copyright (c) 2017 Patrick Isherwood
 
--------------------------------------------------------------------------------------------------
-
 *************************************************************************************************
 				Shockley-Queisser limit calculations (SQ_limit.sce)
 *************************************************************************************************
@@ -32,8 +30,6 @@ Wavelengths must be input as a range of integer values.
 
 Whilst with some alteration this script should work in Matlab, it will not work in its current
 form!  
-
--------------------------------------------------------------------------------------------------
 
 *************************************************************************************************
 				Fundamental losses in photovoltaics (FLIPV.sce)
