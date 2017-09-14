@@ -1,5 +1,5 @@
 *************************************************************************************************
-    	              	      PHOTOVOLTAIC EFFICIENCY CALCULATIONS
+    	              	      	PHOTOVOLTAIC EFFICIENCY CALCULATIONS
 *************************************************************************************************
 
 Basic numerical and analytical calculations of the theoretical maximum efficiency limits for 
