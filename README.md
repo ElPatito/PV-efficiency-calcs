@@ -14,10 +14,10 @@ Copyright (c) 2017 Patrick Isherwood
 This Scilab script uses a user-defined solar spectrum to calculate the detailed balance or
 Shockley-Queisser efficiency limit for photovoltaic devices.  Because the input spectrum can
 be varied this script uses a variation of the numerical technique described by Shockley and
-Queisser in their original paper [1].  An alternative thermodynamic analytical technique (not 
-included here) can be used if the spectrum is limited to that of a blackbody.  The provided 
-spectral data file is for the AM1.5G spectrum, and was calculated using SMARTS.  This is a free 
-open-source program which was developed by C. A. Gueymard, and is available from the US National 
+Queisser in their original paper [1].  An alternative thermodynamic analytical technique (see 
+below) can be used if the spectrum is limited to that of a blackbody.  The provided spectral 
+data file is for the AM1.5G spectrum, and was calculated using SMARTS.  This is a free open-
+source program which was developed by C. A. Gueymard, and is available from the US National 
 Renewable Energy Laboratory website [2].
 
 To use this script, ensure that it is in the same folder as the spectrum data file you intend 
@@ -28,8 +28,8 @@ the shortest wavelength.
 The wavelength range you wish to examine should be shorter than the spectral wavelength range.
 Wavelengths must be input as a range of integer values.
 
-Whilst with some alteration this script should work in Matlab, it will not work in its current
-form!  
+Whilst with some alteration this script should work in Matlab, in its current form it will only
+work in Scilab.  
 
 *************************************************************************************************
 				Fundamental losses in photovoltaics (FLIPV.sce)
@@ -52,8 +52,8 @@ The output graph shows the maximum efficiency curve (dark blue); below gap trans
 (red); above gap photon cooling losses (pale blue); Boltzmann or etendue expansion losses 
 (green); Carnot losses (orange) and radiative recombination emission losses (yellow).
 
-Whilst with some alteration this script may work in Matlab, it will not work in its current
-form!   
+Whilst with some alteration this script should work in Matlab, in its current form it will only
+work in Scilab.    
 
 -------------------------------------------------------------------------------------------------
 
